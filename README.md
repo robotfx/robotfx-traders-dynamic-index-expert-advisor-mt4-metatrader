@@ -1,0 +1,226 @@
+<div class="post-body post-content">
+<div class="speech-bubble">
+<img alt="TDI Expert Advisor for MetaTrader" border="0" data-original-height="1280" data-original-width="1280" height="100" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj16_ZgtfgwGnDYjW-kfweVMcKjmv_X_WqE78EWFDDFBvciX-f6fhohjOoS6EU9e8FMv6ldZZbhijYPrZJ4ltMS1xsNe587EAVoNRiYmGtKSG-Tnwmpcogk46_HjF88EU70FmYFXpiy6uo8oROuDKhhUddo4uweDtT567VenDXcH1jSP-3TAoo1fLawhQ/s800-e365-rw/tdi-ea-min.webp" style="display: block; float: left; margin-right: 5px;" width="100"/>
+  The <strong>MetaTrader Traders Dynamic Index (TDI) Expert Advisor</strong> is designed to trade with the <em>trend</em> using the <strong>TDI indicator</strong>. It can optionally combine signals from <em>moving averages</em>, the <em>stochastic oscillator</em>, and <em>price action</em> for more precise trade entries. This <strong>TDI EA</strong> is ideal for <em>trend-following strategies</em> and advanced <strong>automated Forex trading</strong>.
+</div>
+<div style="text-align: center;">
+<h3><a href="#" id="Functions" name="Functions" title="TDI EA Functions">TDI EA Functions</a></h3>
+</div>
+<ul>
+<li><strong>Identify the trend</strong> using the <em>Traders Dynamic Index (TDI) indicator</em> or <em>moving averages</em></li>
+<li><strong>Enter and close trades</strong> based on the <em>TDI indicator</em> or <em>moving averages</em></li>
+<li><strong>Manage trade settings:</strong> lotsize, trailing stop, trading restrictions by days or sessions</li>
+</ul>
+<div>
+  The <strong>TDI Expert Advisor (EA)</strong> was specifically designed for Forex traders who rely on the <strong>Traders Dynamic Index indicator</strong>. The <em>TDI indicator</em> in MetaTrader combines <strong>RSI (Relative Strength Index)</strong>, moving averages, and volatility bands (based on Bollinger Bands) to provide a complete view of market conditions. While it may appear complex at first, <strong>trading with the TDI EA</strong> becomes straightforward once the indicator's capabilities are fully understood.
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img alt="GBP/NZD Forex trading chart using Traders Dynamic Index EA on MetaTrader" border="0" data-original-height="557" data-original-width="1362" height="293" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsPs4A8TTG_nqhSj4OkVlfmSGWneqC6TRrglwjW808ajg2ynuc1Ojs5hZVg54Z0l2rLMye-0mbJZL7L3OInkoHvzZCKWx1qF6yIu6lmc9wWj9EsQ392XcL3bUA4N2p6F4Pt97F2bu7lp1_W3MuDaISv9so9n3FAqo1WzRaK3nZde8rrvs_7Ouac6fbew/s0-e365-rw/tdi-indicator.webp" title="How to trade with the TDI Expert Advisor in MetaTrader for GBP/NZD" width="715"/>
+</div>
+<div>
+  In the chart above, one of the general interpretations of the <strong>TDI indicator</strong> is displayed:
+</div>
+<ul>
+<li>The <strong>yellow line</strong> represents the market trend</li>
+<li>Trade entries are indicated by <strong>red/green line intersections</strong></li>
+</ul>
+<blockquote class="tr_bq">
+  Multiple methods can be used to determine the trend: the yellow moving average slope, its position relative to the 50 level, or the red/green lines' position relative to the yellow line.
+</blockquote>
+<div>
+  Within the EA's settings, there are three ways to detect the trend: the <strong>yellow slope</strong>, the <strong>green/yellow line position</strong>, and the <strong>price position relative to a moving average</strong>. Trade entries are triggered by multiple criteria that can be individually enabled or disabled. Additional <strong>trade signal filters</strong> include <em>Stochastic oversold/overbought levels</em> or <em>swing zone confirmations</em> (price distance from the most recent highest high or lowest low). Both the trend detector and signal confirmation can be disabled, allowing the EA to trade solely based on the <strong>TDI settings</strong>.
+</div>
+<div style="text-align: center;">
+<h3><a href="#" id="Examples" name="Examples" title="TDI EA Examples">TDI EA Trade examples</a></h3>
+</div>
+<div id="examplesdiv"><table cellpadding="0" cellspacing="0" class="tr-caption-container">
+<tbody>
+<tr>
+<td style="text-align: center;">
+<img alt="MetaTrader trading chart showing TDI Expert Advisor trade entry with TDI green/red moving averages and exit with Stochastic indicator" border="0" data-original-height="557" data-original-width="1362" height="285" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5co2tLXEwZfykGagjheS3QAY_WYdoSdGRXvpqRBOFFGPeOBwFnaK35UFP7p8FEkzEB7JVXrT5X8r7vlv64nuq54UoBUxvvbWP0RWYm3JB3o8rgnQUcCLKbAgLgoRvs_fnU-JGmqrip-i3dbOktJMetuj_Y9sWnooo2QiP8tmy8hVekrP9Cc2Dr7D00w/s0-e365-rw/tdi-metatrader-stochastic-exit.webp" title="TDI Expert Advisor MT4 trading chart with Stochastic exit signal" width="696"/>
+</td>
+</tr>
+<tr>
+<td class="tr-caption" style="text-align: left; text-decoration: none;">
+        In this example, the EA trades with the trend (green candles = buy) and enters trades when the TDI green moving average rises above the TDI red moving average. The trade exits when the Stochastic leaves its overbought zone, set at 95 for this example.
+      </td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" class="tr-caption-container">
+<tbody>
+<tr>
+<td style="text-align: center;">
+<img alt="MetaTrader Forex chart illustrating TDI EA trading with MA Trend and Stochastic confirmation" border="0" data-original-height="557" data-original-width="1362" height="285" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLPj7dEEfXtNKFWF8XcRtY6lwfNcHRB0n7LNSjvIXMdr3r-YBpLPd1udAzfDdIxaYtccKXTRc2WZc-2BVgFYiDRxZRvILMyT0uU_mB0hPlj9nanXvxFvRalSgOI6P5PZ5W5CghnEze0LMvl1qybAZIUzLnuNJGUhXoWr5ahlUS6lDFqYOowB8lYCkjzw/s0-e365-rw/tdi-stochastic-ma.webp" title="TDI Expert Advisor using MA Trend and Stochastic filter in MetaTrader" width="696"/>
+</td>
+</tr>
+<tr>
+<td class="tr-caption" style="text-align: left; text-decoration: none;">
+        The TDI EA determines the trend using the MA Trend and uses Stochastic as a confirmation filter. Entries are triggered by TDI red/green moving average crosses. Several TDI signals are ignored due to confirmation criteria. Trades are opened and closed based on combined TDI and Stochastic conditions.
+      </td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" class="tr-caption-container">
+<tbody>
+<tr>
+<td style="text-align: center;">
+<img alt="Forex chart showing TDI Expert Advisor trading with volatility bands and trend following" border="0" data-original-height="557" data-original-width="1362" height="285" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOqENdC7SkrAlWCDH5PSm4eyuFLjVfCSCLv-0PEJ7mYhtGPQ9u327_7m-l3XAP6_Rjhr2DK62yuY_CpzvR8miKzLIFv_esKxc0vLr-PLsmNDegTmMYtVMkQcoy35mzc5AHrFw3J-N2iJZVC2jwLB57xS5COIKuUkcjgs_GuS8N7HuReAstWy_vYSsCvA/s0-e365-rw/tdi-metatrader-bollinger-entry-exit.webp" title="TDI EA MetaTrader example trading with volatility bands" width="696"/>
+</td>
+</tr>
+<tr>
+<td class="tr-caption" style="text-align: left; text-decoration: none;">
+        This trade follows the trend (red candles = price below MA). Entry occurs when TDI green MA crosses the upper volatility band down; the same signal is used for exits. Swing zone confirmation is applied to enhance trade accuracy.
+      </td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" class="tr-caption-container">
+<tbody>
+<tr>
+<td style="text-align: center;">
+<img alt="MetaTrader chart demonstrating TDI EA entries and exits using volatility bands" border="0" data-original-height="557" data-original-width="1362" height="285" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjO9qITexdBlReAN23dtg1J6CYNSk20EYR6P3JXsHKCFs2XNMtgKrYxBAtBSXc8jf7YR79e2Qegs3opfE6CAigNnsZnBb2P75HRxDShI3H9dd--SHEeh0Nq9SJAxr_-qcKgdfHfL3ZuCulm7RbdEq5mLYoU26K4AnM1mgylmqTxdXdJAxX4kzxPRiA3ZQ/s0-e365-rw/tdi-ea-blue-cross.webp" title="TDI EA trading signals using green line and volatility bands in MetaTrader" width="696"/>
+</td>
+</tr>
+<tr>
+<td class="tr-caption" style="text-align: left; text-decoration: none;">
+        Here, the TDI EA trades without trend detection or confirmation. Entries and exits are based solely on TDI green line crossing the volatility bands. White vertical lines mark entries; black lines mark exits. This strategy aims to capture large market moves efficiently.
+      </td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" class="tr-caption-container">
+<tbody>
+<tr>
+<td style="text-align: center;">
+<img alt="MetaTrader Forex chart showing TDI EA trading based on green moving average slope" border="0" data-original-height="557" data-original-width="1362" height="285" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxYhZJB_VzH1GY5D_Bv5-HdRGAKanlATl92gyvB4CjkBD4lgQYltZqx13uodxrjhQLS-kpDTtoHa_6y41XT-KDw5fPNeu7qY1ogqok5q95ngkhJ2rVTldRfKR_IujrTJqWxsO1AZMfutKXObfasrLfdQzUApUaUo4FrpX2Bo5Rm-Ooc31kRnsNARjACQ/s0-e365-rw/tdi-metatrader-green-slope.webp" title="TDI Expert Advisor trading using green line slope on MetaTrader" width="696"/>
+</td>
+</tr>
+<tr>
+<td class="tr-caption" style="text-align: left; text-decoration: none;">
+        The TDI EA follows the MA Trend for trading (sell below MA, buy above MA) and opens trades based on the TDI green moving average slope. Maximum three trades are allowed; exits are triggered when TDI green and red lines cross. Profit/loss from individual trades is managed to ensure overall basket profitability.
+      </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="text-align: center;">
+<h3><a href="#" id="Settings" name="Settings" title="TDI EA Settings">TDI EA settings</a></h3>
+</div>
+<div id="settings">
+<div>Since the TDI expert advisor uses the TDI indicator, all the indicator's settings can be found in the EA's settings.</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img alt="Screenshot showing the Traders Dynamic Index expert advisor settings (Metatrader)" border="0" data-original-height="837" data-original-width="792" height="756" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheH8JzMcPxmuPucWN_ZwwhFIYZXV2_jSvEKL0Pz0ARYnfDb-c-Z3sgmwwNcri7F86arXR9KK6kxbNVfT4VSWGQSuus3OLqIjcq-G8-aZxjOPeQdz9rLZyMLklhgc5ZUVB69ztAM_EBDzsXp6RIL1yLi2kNofsAZWRqfAUREfhQNKFZc_tN8JvDY0BHJg/s0-e365-rw/tdi-ea-settings.webp" title="TDI EA settings" width="715"/>
+</div><ul><li>Enter your Client Email - fill this with your email IF you are using a paid version of this EA on a LIVE account</li>
+<li>Sunday to Friday - Indicate whether or not you want to trade each specific day.</li>
+<li>NFP Friday - Whether or not you want to trade on volatile Non-Farm payroll Friday, first Friday of the month.</li>
+<li>Thursday Before NFP - Whether or not you want to trade on the Thursday before the volatile Non-Farm Payroll Friday.</li>
+<li>Christmas Holidays - Whether or not you want to trade during a custom defined period in December, during the low liquidity of the Christmas Holidays.</li>
+<li>Christmas Holidays Start (20th Dec) - This is the day in December you will start to filter out, as the beginning of the Christmas Holiday. Default is 20th, you can enter any date instead of 20.</li>
+<li>New Years Holidays - Whether or not you want to trade during a custom defined period in the beginning of January, the low liquidity of the New Years Holidays.</li>
+<li>New Years Holidays End (5th Jan) - This is the day in January you stop the filter, the end of the New Years holiday period. Default is 5th January, you can enter any date instead of 5.</li>
+<li>Auto GMT Offset - Indicate if you want auto GMT offset turned on or off. Turn off during back testing.</li>
+<li>Manual GMT Offset - If AutoGMTOffset is turned off, indicate what your manual GMT offset would be.</li>
+<li>Enable Trading Session - Set to false to ignore the below trading sessions, or to true to trade within the sessions.</li>
+<li>Trade Tokio Session - Whether or not to trade Asian session.</li>
+<li>Start Tokio Session - Do not trade before this time. If you include Australia, Sydney starts at 21.00, and Tokyo starts at 23.00 GMT.</li>
+<li>Finish Tokio Session - Do not trade after this time. Defaulted at 07.00, the start of the European Session. Note: The Tokyo session continues on for 1 more hour to end at 08.00, so if you are interested in trading this session in its entirety, you should indicate from 23:00 to 08.00.</li>
+<li>Trade London Session - Whether or not to trade European session</li>
+<li>Start London Session - Do not trade before this time. Defaulted at 7.00 GMT, the start of the London Session, though Germany does not open till 08.00.</li>
+<li>Finish London Session - Do not trade after this time. Note: The European Session continues till 16.00, so if you are interested in trading this session in entirety, you should have your defaults from 7.00 to 16.00.</li>
+<li>Trade New York Session - Whether or not to trade the New York session.</li>
+<li>Start New York Session - Do not Trade before this time. Note that the NY stock exchange does not open till 9:30 EST, or 13.30 GMT, and the first hour and half (from 9:30 to 11:00 EST, or 13:30 to 15:00 GMT) is heavy trading, lots of liquidity.</li>
+<li>Finish New York Session - Do not Trade after this time.</li>
+</ul><div><u>Lotsize, Money etc.</u></div><ul><li>Buy Trades - Enable/disable long trades</li>
+<li>Sell Trades - Enable/disable short trades</li>
+<li>Lotsize - set the lotsize, as fix amount or equity percent</li>
+<li>Enable Money Management - set to true to use the Lotsize as equity percent instead on fixed amount</li>
+<li>Stop Loss - set the stoploss in pips</li>
+<li>Take Profit - set the take profit in pips</li>
+<li>Slippage - the slippage in pips</li>
+<li>Minimum Profit - set the minimum profit needed to close a trade or a basket; this applies to the following trade closing criteria:</li>
+</ul><div>- <i>Close basket of opposite trades when Minimum Profit is reached</i></div><div>- <i>Close trade/s at opposite signal</i></div><div>- <i>Close trade/s at same signal</i></div><div>- all the other Close at ...</div><div><u>MA Indicator Trend</u></div><div><ul><li>Settings for the moving average indicator (MA Trend) that can be used to determine the trend in enabled in the <i>Determine the Trend by</i></li>
+</ul><div><u>MA Indicator Signal</u></div></div><div><ul><li>Settings for the moving average indicator (MA Signal) that can be used to enter a trade in enabled in the <i>Trade by MA Signal price cross </i>and/or <i>Close at Price/MA Signal cross</i></li>
+</ul><div><u>Stochastic Indicator</u></div></div><div><ul><li>Settings for the stochastic indicator if enabled in the <u>Confirm Entry by</u></li>
+</ul><div><u>TDI Indicator</u></div></div><div><ul><li>Settings for the Traders Dynamic Index that can be used to determine the trend, the trade entries and also to exit opened trades</li>
+<li>RobotFX TDI Indicator Name (without .ex4) - do not change this, as this is the name of thee RobotFX TDI indicator that is needed by the expert advisor to function properly</li>
+</ul><div><u>Determine the Trend by</u></div></div><div><ul><li>MA Trend Indicator - if selected, it establishes an uptrend if the price is above the MA Trend, and a downtrend if the price is below the Ma Trend</li>
+<li>TDI Green/Yellow position - if selected, the EA considers an uptrend when the TDI green moving average is above the yellow line, and a downtrend when it is below it</li>
+<li>TDI Yellow slope - if selected, the TDI's yellow moving average slope is used to determine the price trend; rising slope means an uptrend, falling is a downtrend</li>
+<li>No Trend - disables the trend detector</li>
+</ul><div><u>Confirm Entry by</u></div></div><div><ul><li>Stochastic Overbought/Oversold - if chosen, the EA will sell only when the price is in the Stochastic's overbought area, and buy only if oversold</li>
+<li>Swing Zone Price Position - if chosen, the EA will enter a trade only if the price is at a distance of at least the <i>Pips Away From Last Swing</i> (in pips) from the latest highest high or lowest low (depending on the trend) that happened during the latest <i>Swing Zone Bars</i> (candlesticks)</li>
+<li>No confirmation - disables the confirmation filter</li>
+</ul><div><u>Entry Conditions</u></div></div><div><ul><li>Settings for the EA to enter a trade based on the TDI moving averages and/or the MA Signal</li>
+</ul><div><u>Exit Conditions</u></div></div><div><ul><li>Break Even/Trailing Stop - sets the breakeven and the trailing stop in pips</li>
+<li>Trailing Step (pips) - sets the trailing step in pips; set to a very high value if there is no need to trail the price</li>
+<li>Trailing Buffer - buffer, in pips, used by the stoploss</li>
+<li>Close at ... - Various settings for the EA to exit trades based on the TDI moving averages and/or the MA Signal</li>
+<li>Close at opposite signal - Close opened trades whenever an opposite signal occurs</li>
+<li>Close at same signal - Close opened trades whenever a similar signal occurs</li>
+<li>"Close at..." obeys the Minimum Profit - Set to true and the EA will close the trades only if their profits reached the Minimum Profit</li></ul>
+<blockquote class="tr_bq">Example: if you instruct the EA to close the opened trades if an opposite trades signal occurs (Close at opposite signal = true), and the <i>"Close at..." obeys the Minimum Profit</i> is set to true, the EA close the opened trade/s whenever there is an opposite signal, but only if its/their profit already reached the Minimum Profit.</blockquote><ul><li>Close basket of opposite trades when Minimum Profit is reached - if there are both long and short trades on the same chart and this is enabled, the EA will attempt to close all as soon as their cumulative profit reaches Minimum Profit</li>
+</ul><div><u>Loss management</u></div></div><div><ul><li>Enable Martingale - enable/disable the next trade's lotsize multiplier, if the previous trade closed with negative profit</li>
+<li>Martingale Multiplier - if the above scenario occurs, the next trade's lotsize will be equal to the previous trade's lotsize multiplied by this number</li>
+<li>Retry Martingale - how many times to enable the multiplier, if the next trades are also negative profit; set this to a realistic number, because increasing the lotsize over and over might lead to your account hitting a margin</li>
+<li>Trades' Comment - used for monitoring opened/closed trades</li>
+<li>Magic Number - set a different number if you want to use the EA multiple times on the same chart/pair</li>
+</ul></div></div><div style="text-align: center;"><h3><a href="https://www.youtube.com/playlist?list=PLc_lZWE-pgjus4qmPB1wvcsi46anz0ms8" id="Videos" name="Videos" rel="nofollow" target="_blank" title="TDI EA Videos">Watch how the RobotFX TDI works</a></h3><br/>
+</div><a name="more"></a>
+<button onclick="hideshow()">Video Key Moments</button><div id="videocontent" style="display:none">
+<ul>
+<li>What is the <strong>Traders Dynamic Index (TDI) indicator</strong>? 
+      <a href="https://www.youtube.com/embed/mLIO3LEHRdc?start=10&amp;autoplay=1" rel="noopener noreferrer nofollow" target="_blank" title="Learn what the TDI indicator is">▶️</a>
+</li>
+<li>How to identify the trend using the <strong>TDI indicator</strong>? 
+      <a href="https://www.youtube.com/embed/mLIO3LEHRdc?start=44&amp;autoplay=1" rel="noopener noreferrer nofollow" target="_blank" title="Identify trends with the TDI indicator">▶️</a>
+</li>
+<li>What are the best <strong>TDI trading signals</strong>? 
+      <a href="https://www.youtube.com/embed/mLIO3LEHRdc?start=154&amp;autoplay=1" rel="noopener noreferrer nofollow" target="_blank" title="Discover the best TDI trading signals">▶️</a>
+</li>
+<li>Where to download a good <strong>TDI Expert Advisor</strong>? 
+      <a href="https://www.youtube.com/embed/mLIO3LEHRdc?start=183&amp;autoplay=1" rel="noopener noreferrer nofollow" target="_blank" title="Download the TDI Expert Advisor">▶️</a>
+</li>
+<li>What are the <strong>Green-Red TDI trading signals</strong>? 
+      <a href="https://www.youtube.com/embed/mLIO3LEHRdc?start=233&amp;autoplay=1" rel="noopener noreferrer nofollow" target="_blank" title="Green-Red TDI trading signals explained">▶️</a>
+</li>
+<li>How to trade using the <strong>TDI Green-Yellow crossing</strong>? 
+      <a href="https://www.youtube.com/embed/mLIO3LEHRdc?start=357&amp;autoplay=1" rel="noopener noreferrer nofollow" target="_blank" title="Trade with TDI Green-Yellow crossing strategy">▶️</a>
+</li>
+<li>How to enter and exit trades using the <strong>TDI Green slope</strong>? 
+      <a href="https://www.youtube.com/embed/mLIO3LEHRdc?start=433&amp;autoplay=1" rel="noopener noreferrer nofollow" target="_blank" title="Enter and exit trades using TDI Green slope">▶️</a>
+</li>
+<li>How to trade by <strong>TDI Green-Blue intersection</strong>? 
+      <a href="https://www.youtube.com/embed/mLIO3LEHRdc?start=552&amp;autoplay=1" rel="noopener noreferrer nofollow" target="_blank" title="Trade strategy with TDI Green-Blue intersection">▶️</a>
+</li>
+<li>What are the <strong>Traders Dynamic Index EA settings</strong>? 
+      <a href="https://www.youtube.com/embed/mLIO3LEHRdc?start=720&amp;autoplay=1" rel="noopener noreferrer nofollow" target="_blank" title="Traders Dynamic Index EA settings guide">▶️</a>
+</li>
+<li>Is the <strong>TDI EA profitable</strong>? 
+      <a href="https://www.youtube.com/embed/mLIO3LEHRdc?start=2105&amp;autoplay=1" rel="noopener noreferrer nofollow" target="_blank" title="Check if the TDI EA is profitable">▶️</a>
+</li>
+<li>How to find the <strong>best TDI EA settings</strong> using the strategy tester? 
+      <a href="https://www.youtube.com/embed/mLIO3LEHRdc?start=2647&amp;autoplay=1" rel="noopener noreferrer nofollow" target="_blank" title="Find best TDI EA settings with MetaTrader strategy tester">▶️</a>
+</li>
+</ul>
+<button onclick="hideshow()">Close this menu</button>
+</div>
+<div class="youtube-lazy" data-si="OWdG5PFos_wXjrnU" data-video-id="mLIO3LEHRdc" style="position:relative;width:100%;max-width:560px;height:315px;cursor:pointer;overflow:hidden;background:#000;">
+<img alt="YouTube video thumbnail" loading="lazy" src="https://img.youtube.com/vi/mLIO3LEHRdc/hqdefault.jpg" style="width:100%;height:100%;object-fit:cover;display:block;border:0;"/>
+<div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:64px;color:white;text-shadow:0 0 10px black;">
+    ▶
+  </div>
+</div>
+<div style="background-color: #f8f8f8; border: 1px solid rgb(0, 0, 0); padding: 10px 20px 0px;">
+<h4 style="font-weight: normal;">Download Traders Dynamic Index EA free</h4>
+<a href="https://drive.google.com/uc?export=download&amp;id=13DujPw7_BpAC3neI2RDHTCmbUDo7W-I_" id="freedownload" name="freedownload" rel="noopener noreferrer nofollow" target="_blank" title="Free download">
+<div style="-ms-flex-align: center; -webkit-align-items: center; -webkit-box-align: center; align-items: center; background-color: #444444; border-radius: 4px; border: 1px solid rgb(255, 255, 255); color: #f0f0f0; display: flex; font-family: Roboto; font-size: 1.2em; justify-content: center; margin: 0px auto; padding: 14px 20px; text-align: center; width: 80%;"><svg height="24" style="margin-right: 10px;" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M13 13v5.585l1.828-1.828 1.415 1.415L12 22.414l-4.243-4.242 1.415-1.415L11 18.585V13h2zM12 2a7.001 7.001 0 0 1 6.954 6.194 5.5 5.5 0 0 1-.953 10.784L18 17a6 6 0 0 0-11.996-.225L6 17v1.978a5.5 5.5 0 0 1-.954-10.784A7 7 0 0 1 12 2z" fill="rgba(240,240,240,1)"></path></svg> Download TDI EA - free version</div>
+</a>
+<em style="color: #4e4e4e; font-family: Roboto; font-size: 0.8em;"><svg height="12" viewbox="0 0 24 24" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-1-5h2v2h-2v-2zm0-8h2v6h-2V7z" fill="rgba(220,20,60,1)"></path></path></svg>  Fully functional MetaTrader expert advisor, limited to demo accounts for risk-free testing
+</em>
+</div>
+<span id="theprice">349</span>
+
+
+
+</div>
